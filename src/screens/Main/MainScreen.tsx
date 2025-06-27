@@ -2,7 +2,10 @@ import TextLabel from "../../components/TextLabel/TextLabel";
 import ListItem from "../../components/ListItem/ListItem";
 import { AppContainer } from "./mainScreen.style";
 import { useNavigation } from "@react-navigation/native";
-import { NavigationType, ScreenNames } from "../../navigator/RootNavigator";
+import {
+  NavigationType,
+  ScreenNames,
+} from "../../navigator/rootNavigator.types";
 import { FlatList } from "react-native";
 interface Pokemon {
   id: number;

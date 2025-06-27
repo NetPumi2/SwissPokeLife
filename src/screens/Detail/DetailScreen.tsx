@@ -1,6 +1,5 @@
-import { View, Text, Button, TouchableOpacity } from "react-native";
 import TextLabel from "../../components/TextLabel/TextLabel";
-import { DetailScreenRouteProp } from "../../navigator/RootNavigator";
+import { DetailScreenRouteProp } from "../../navigator/rootNavigator.types";
 import { useRoute } from "@react-navigation/native";
 import { DetailTable, DetailWrapper } from "./detailScreen.style";
 import DetailRow from "../../components/DetailRow/DetailRow";

@@ -19,7 +19,6 @@ export const HeaderLabel = styled.Text({
 
 export const CellLabel = styled.Text({
   color: "#4c5c68",
-  paddingEnd: 0,
   paddingStart: 10,
   fontSize: 16,
   flex: 1,
