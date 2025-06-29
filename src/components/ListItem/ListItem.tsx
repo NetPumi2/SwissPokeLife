@@ -3,8 +3,8 @@ import TextLabel from "../TextLabel/TextLabel";
 import { ItemTouchableWrapper, ItemImage } from "./listItem.style";
 
 interface Props {
-  label: string;
-  uri: string;
+  label?: string;
+  uri?: string;
   onPress?: () => void;
 }
 

@@ -2,7 +2,7 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
-    "target": "ES6", // Output JS uses ES6 features
+    "target": "ES6",
     "module": "ES6"
   }
 }

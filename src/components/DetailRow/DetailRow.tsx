@@ -2,8 +2,8 @@ import TextLabel from "../../components/TextLabel/TextLabel";
 import { DetailRawWrapper } from "./detailRow.style";
 
 interface Props {
-  label: string;
-  value: string | number;
+  label?: string;
+  value?: string | number;
 }
 
 const DetailRow = ({ label, value }: Props) => (

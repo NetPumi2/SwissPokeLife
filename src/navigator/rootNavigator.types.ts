@@ -7,7 +7,6 @@ export enum ScreenNames {
 }
 
 type DetailScreenProp = {
-  pokemonId: number;
   pokemonName: string;
 };
 
